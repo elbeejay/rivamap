@@ -3,6 +3,11 @@ python:
   - "3.6"      # current default Python on Travis CI
   - "3.7"
   - "3.8"
+# add gdal bits
+before_install:
+  - sudo add-apt-repository --yes ppa:ubuntugis/ppa
+  - sudo apt-get --quiet update
+  - sudo apt-get install --yes libgdal-dev gdal-bin
 # command to install dependencies
 install:
   - pip install -r requirements.txt
