@@ -1,5 +1,4 @@
 scipy
 matplotlib
-gdal=='gdal-config --version'
 pyshp
 opencv-python
