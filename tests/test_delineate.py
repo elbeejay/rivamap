@@ -1,8 +1,8 @@
 import pytest
 
+import sys, os
 import numpy as np
-from rivamap import delineate
-
+sys.path.append(os.path.realpath(os.path.dirname(__file__)+"/.."))
 
 
 
