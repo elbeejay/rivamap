@@ -4,6 +4,9 @@ import sys, os
 import numpy as np
 sys.path.append(os.path.realpath(os.path.dirname(__file__)+"/.."))
 
+from rivamap import delineate
+
+
 
 
 def test_extractCenterlines():
